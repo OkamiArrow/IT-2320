@@ -1,0 +1,115 @@
+body
+{
+	background-color:tan;
+}
+
+a:link, a:visited 
+{
+	color:gold;
+	text-decoration:none;
+}
+
+a:hover, a:active 
+{
+	background-color: skyblue;
+	color:gold;
+	font-size:150%;
+}
+
+div.Anime
+{
+	font-family:papyrus;
+	Text-align:center;
+	text-shadow:2px 3px maroon;
+	width:50%;
+	height:100px;
+	border-style:double;
+	border-color:skyblue gold;
+	position: relative;
+	margin:auto;
+}
+
+div.Logo 
+{
+	display:block;
+	margin:auto;
+	width:12.5%;
+}
+
+.FoxFriends
+{
+	float:left;
+	margin-right: 16px;
+	border-style:dashed;
+	border-color: skyblue gold;
+	
+}
+
+div.Naruto 
+{
+	
+	font-family: Cambria;
+}
+
+span.T
+{
+	font-size:200%;
+	font-family:papyrus;
+	color:skyblue;
+}
+span.N1{
+	text-decoration:none;
+}
+
+.FullMetalAlchemist
+{
+	display:block;
+	margin:auto;
+	width:14.5%;
+
+}
+
+.SteinsGate
+{
+	float:left;
+	margin-right:16px;
+	border-style:dashed;
+	border-color:skyblue gold;
+}
+.NextPhase
+{
+	clear:left;
+	font-family:papyrus;
+	clear:left;
+	text-align:center;
+	text-shadow:2px 1px maroon;
+	border-style:dotted;
+	border-color: skyblue gold;
+	border-radius:5px;
+	width:50%;
+	margin:auto;
+	
+	
+}
+
+span.A
+{
+	font-size:200%;
+	font-family:papyrus;
+	color:gold;
+}
+.NewAnime
+{
+	width:100%;
+	
+}
+
+.OrderList
+{
+	border-style:dashed;
+	border-color:skyblue gold;
+	border-radius:5px;
+	margin:auto;
+	width:50%;
+
+}
