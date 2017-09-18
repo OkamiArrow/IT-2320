@@ -8,8 +8,8 @@
 		<link rel="stylesheet" style="text/css" href="style.css"		
 	</head>
 	
-<body>
-
+<body onload="myFunction(greeting)">
+	<script src="myscript.js"></script>
 	<div class="Anime">
 	<h1><span style="color:skyblue;">O</span><span style="color:gold;">u</span><span style="color:skyblue;">r</span> 
 	<span style="color:gold;">F</span><span style="color:skyblue;">i</span><span style="color:gold;">s</span><span style="color:skyblue;">t</span> 
@@ -17,12 +17,12 @@
 	</div>
 	<br/>
 	<div class="Logo">
-	<img src="../images/NarutoLogo.jpg" alt="Naruto Logo" style="width:200px;height:120px:border:0;";>
+	<img src="./images/NarutoLogo.jpg" alt="Naruto Logo" onMouseOver="imgChange(this)" onMouseOut="imgAway(this)" style="width:200px;height:120px:border:0;";>
 	</div>
 	
 	<div class="FoxFriends">
-		<img src="../images/Naruto_characters.jpg" alt="Naruto And Friends" style="width:175px;height:170px;border:0;">
-		</div>
+		<img src="./images/Naruto_characters.jpg" alt="Naruto And Friends" onMouseOver="imgHover(this)" onMouseOut="mouseAway(this)" style="width:175px;height:170px;border:0;">
+	</div>
 		
 	<div class="Naruto">
 	
@@ -49,11 +49,11 @@
 	</div>
 	<br/>
 	<div class="FullMetalAlchemist">
-			<img src="../images/FullMetalAlchemist.jpg" alt="FullMetal Alchemist" style="width:270px;height:170px;border:0;">
+			<img src="./images/FullMetalAlchemist.jpg" alt="FullMetal Alchemist" onMouseOver="imgOn(this)" onMouseOut="mouseOff(this)" style="width:270px;height:170px;border:0;">
 			</div>
 	
 	<div class="SteinsGate">
-		<a href="https://en.wikipedia.org/wiki/Steins;Gate" target="_blank"><img src="../images/steinsGate.jpg" alt="SteinsGate" style="width:175px;height:170px;border:0;"></a>
+		<a href="https://en.wikipedia.org/wiki/Steins;Gate" target="_blank"><img src="./images/steinsGate.jpg" alt="SteinsGate" style="width:175px;height:170px;border:0;"></a>
 		</div>
 	
 	<div class="NewAnime">
