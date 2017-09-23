@@ -38,8 +38,12 @@ var year = timeObject.getFullYear();
 var newDate = month + "/" + day + "/" + year;
 var greeting = "Hello and welcome to my page! The date is: " + newDate;
 
-function myFunction(greeting)
+function myFunction()
 {
 	alert(greeting);
 }
 
+window.onload = function()
+{
+	myFunction(greeting)
+}

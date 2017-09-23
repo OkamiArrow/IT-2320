@@ -16,6 +16,26 @@ a:hover, a:active
 	font-size:150%;
 }
 
+.wordStringOne .char1
+{
+	color:gold;
+}
+
+.wordStringOne .char2
+{
+	color:skyblue;
+}
+
+.wordTwoString .char3
+{
+	color:gold;
+}
+
+.wordTwoString .char4
+{
+	color:skyblue;
+}
+
 div.Anime
 {
 	font-family:papyrus;
@@ -51,7 +71,7 @@ div.Naruto
 	font-family: Cambria;
 }
 
-span.T
+div.Naruto > p::first-letter
 {
 	font-size:200%;
 	font-family:papyrus;
@@ -76,6 +96,7 @@ span.N1{
 	border-style:dashed;
 	border-color:skyblue gold;
 }
+
 .NextPhase
 {
 	clear:left;
@@ -92,7 +113,7 @@ span.N1{
 	
 }
 
-span.A
+div.NewAnime > p::first-letter
 {
 	font-size:200%;
 	font-family:papyrus;
