@@ -134,3 +134,56 @@ div.NewAnime > p::first-letter
 	width:50%;
 
 }
+
+.whole-body{
+	width: 80%;
+	border: 1px solid blue;
+}
+
+@media screen and (max-width:320px)
+{
+	 .whole-body .Anime .wordStringOne{float:left; display: block;}
+}
+
+@media screen and (min-width:320px) and (max-width:480px)
+{
+	 .whole-body .Anime .wordStringOne {float:left; display: block;}
+}
+	
+@media screen and (min-width:480px) and (max-width:720px)
+{
+	.whole-body {display:inline-block;}
+}
+
+@media screen and (min-width:720px) and (max-width:1024px)
+{
+	.whole-body {display:inline-block;}
+}
+
+@media screen and (max-width:480px)
+{
+	.Logo{ 
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:480px)
+{
+	.FoxFriends{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width:480px)
+{
+	.FullMetalAlchemist{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width:480px)
+{
+	.SteinsGate{
+		display: none !important;
+	}
+}
