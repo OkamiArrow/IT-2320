@@ -1,0 +1,96 @@
+@font-face{
+		font-family: jeffsFirstFont;
+		src: url(Akashi.ttf);
+}
+
+@-webkit-keyframes imgTrip{
+	0%{left:0px; top:0px;}
+	25%{left:200px; top:0px;}
+	50%{left:200px; top:200px;}
+	75%{left:0px; top:200px;}
+	100%{left:0px; top:0px;}
+}
+
+@keyframes imgTrip{
+	0%{left:0px; top:0px;}
+	25%{left:200px; top:0px;}
+	50%{left:200px; top:200px;}
+	75%{left:0px; top:200px;}
+	100%{left:0px; top:0px;}
+}
+
+.dOne{
+	display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+	border: 2px dotted blue;
+	word-break: keep-all;
+	font-family:jeffsFirstFont;
+}
+.dTwo{
+	background: url(lotus.jpg) right bottom no-repeat, url(lotus2.jpg) left top no-repeat;
+	background-size:100px, 150px, center fixed;
+}
+
+.dThree{
+	background:url(lotus2.jpg) left top no-repeat, url(clouds.jpg) left top repeat;
+	background-size:100px, auto;
+}	
+
+.Ellips{
+	white-space:nowrap;
+	width:100px;
+	border: 1px dashed red;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.Ellips:hover {
+    text-overflow: inherit;
+    overflow: visible;
+	border: 1px dashed red;
+	width:860px;
+}
+
+#animateOne {
+
+	-ms-transform: skew(20deg,10deg); /* IE 9 */
+    -webkit-transform: skew(20deg,10deg); /* Safari */
+    transform: skew(20deg,10deg); /* Standard syntax */
+}
+
+#animate2{
+	
+	border:1px dotted black;
+	width:300px;
+	background-color:red;
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+}
+
+
+#pTShadow{
+			text-shadow: 3px 3px 2px red;
+		 }
+
+#pTShadow2{
+	text-shadow: 5px 5px 0px blue;
+}
+
+.animate{
+	
+	:url(shinChan.jpg) left top no-repeat;
+	background-size:100px;
+}
+
+#shinny{
+	
+	position: relative;
+    -webkit-animation-name: imgTrip; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: imgTrip;
+    animation-duration: 4s;
+	animation-iteration-count:infinite;
+}
