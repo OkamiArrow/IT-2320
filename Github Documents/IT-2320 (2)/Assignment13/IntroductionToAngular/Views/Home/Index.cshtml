@@ -1,0 +1,28 @@
+﻿<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <script data-require="angular.js@1.4.8" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        <title>Introduction to AngularJS</title>
+    </head>
+
+    <body>
+
+        <div ng-app="my-module" ng-controller="my-root-controller">
+
+            <h1>This site is made to output the Indians batting order!</h1>
+            
+            <ul>
+                <li ng-repeat="names in players">
+                    {{ names.FirstName + ', ' + names.LastName }}
+                </li>
+            </ul>
+
+            <div>And that is the batting order of the 1995 Cleveland Indians!!</div>
+      
+        </div>
+
+    </body>
+
+</html>
