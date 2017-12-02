@@ -1,17 +1,66 @@
-﻿body{
-    width:520px;
-    font-family:Calibri;
-    font-style:normal;
-    font-size:12px;
+﻿
+body {
+    width: 520px;
+    font-family: Calibri;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.border1 {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 30px;
+    margin: 5px;
 }
 
 .header {
-    font-family:Cambria;
+    font-family: Cambria;
     font-size: 16px;
-    font-weight:bold;
-    text-align:left;
+    font-weight: bold;
+    text-align: left;
 }
 
-#paragraph{
-    font-weight:bold;
+#para1 {
+    font-family: Calibri;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+}
+
+#accountExist {
+    white-space: pre-wrap;
+    width: 163px;
+    word-break: keep-all;
+}
+
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    margin: 3px;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    float: left;
+}
+
+#login {
+    display: inline-block;
+    width: 100px;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
+
+
+.separator {
+    clear: both;
+    border: 1px solid black;
+    width: 96%;
 }
