@@ -1,0 +1,17 @@
+﻿body{
+    width:520px;
+    font-family:Calibri;
+    font-style:normal;
+    font-size:12px;
+}
+
+.header {
+    font-family:Cambria;
+    font-size: 16px;
+    font-weight:bold;
+    text-align:left;
+}
+
+#paragraph{
+    font-weight:bold;
+}
