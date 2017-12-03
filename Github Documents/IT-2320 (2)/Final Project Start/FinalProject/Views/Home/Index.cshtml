@@ -2,32 +2,60 @@
 
 <html>
 
-    <head>
-        <link rel="stylesheet"  href="~/Styles/Home.css" type="text/css">
-        <title>Final Project</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="~/Styles/Home.css" type="text/css">
+    <title>Final Project</title>
+</head>
 
 <body>
+
     <div class="home">
+
         <h1 class="header">Welcome to Cuyahoga Community College Student Services Online</h1>
+
         <p id="para1">
             Cuyahoga Community College recognizes students' rights to acess personal and academic records in accordance with
             the Family Educational Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568.
         </p>
-        <div class="border1">
-            <div id="accountExist">Already have an existing account with us? Returning users may log in by entering their site username and password.</div>
 
-            <label>Username</label><input type="text" />
-            <label>Password</label><input type="text" />
-            <button id="login" type="submit">Log In</button>
+        <div class="border1">
+
+            <div id="hidden">Log In</div>
+
+            <div id="accountExist">Already have an account with us? Returning users may log in by entering their site username and password.</div>
+
+            <form id="form1" method="post">
+
+
+                <label for="username">Username</label><input type="text" id="username" name="username" /><br /><br />
+
+                <label for="password">Password</label><input type="password" id="password" name="password" />
+
+                <button id="login" type="submit" value="Login">Log In</button>
+
+
+            </form>
 
             <div class="separator"></div>
-            <div>New users, please create<br />a new account by providing<br />us with some basic information.</div>
-            <div id="newUser"></div>
-            <div id="newPass"></div>
-            <div id="eMail"></div>
-            <div id="rEmail"></div>
-            <button id="createAccount" type="submit">Add</button>
+
+            <div id="hidden2">Create New Account</div>
+
+            <div class="newAccount">New users, please create a new account by providing us with some basic information.</div>
+
+            <form id="form2" method="post">
+
+                <label for="newUsername">Username</label><input type="text" id="newUsername" name="newUsername" /><br /><br />
+
+                <label for="newPassword">Password</label><input type="password" id="newPassword" name="newPassword" /><br /><br />
+
+                <label for="newEmail">E-Mail Address</label><input type="email" id="newEmail" name="newEmail" /><br /><br />
+
+                <label for="repeatEmail">Repeat E-Mail Address</label><input type="email" id="repeatEmail" name="repeatEmail" /><br /><br />
+
+                <button id="createAccount" type="submit" value="Join">Create Account</button>
+
+            </form>
+
         </div>
     </div>
 
