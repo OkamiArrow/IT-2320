@@ -31,7 +31,7 @@
 
                 <label for="password">Password</label><input type="password" id="password" name="password" />
 
-                <button id="login" type="submit" value="Login">Log In</button>
+                <button id="login" type="submit" form="form1" value="Login">Log In</button>
 
 
             </form>
@@ -52,11 +52,44 @@
 
                 <label for="repeatEmail">Repeat E-Mail Address</label><input type="email" id="repeatEmail" name="repeatEmail" /><br /><br />
 
-                <button id="createAccount" type="submit" value="Join">Create Account</button>
+                <button id="createAccount" type="submit" form="form2" value="Join">Create Account</button>
 
             </form>
 
         </div>
+    </div>
+
+    <div class="accountInfo">
+
+        <div class="border2">
+       
+        <form id="form3" method="post">
+
+            <div class="border3">
+            <label for="accountName" id="accountName">Account Name:</label><div id="eName"></div><br /><br />
+
+       
+            <label for="updateEmail" id="updateEmail">Email Address:</label><input type="email" id="updateEmail" name="updateEmail" />
+            <button id="update1" type="submit" value="Join">Update</button><br /><br />
+
+        
+            <label for="GPA" id="GPA">Current GPA:</label><input type="text" id="GPA" name="GPA" />
+            <button id="update2" type="submit" value="Join">Update</button><br /><br />
+
+                </div>
+
+            <div class="separator2"></div>
+
+            <label for="elemName" id="elemName">ElementName:</label><input type="text" id="elemName" name="elemName" /><br /><br />
+
+            <label for="elemValue" id="elemValue">ElementValue:</label><input type="text" id="elemValue" name="elemValue" /><br /><br />
+
+            <button id="addElementButton" type="submit" form="form3" value="Join">Add</button>
+            
+        </form>
+
+
+            </div>
     </div>
 
     <footer>Cuyahoga Community College <br /> 700 Carnegie Avenue, Cleveland, Ohio 44115</footer>
